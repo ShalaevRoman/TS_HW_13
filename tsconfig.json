@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
+    "strict": true,
+    "outDir": "./dist",
+    "incremental": true,
+    "tsBuildInfoFile": "./buildcache"
+
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
